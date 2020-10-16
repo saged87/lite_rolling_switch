@@ -137,7 +137,7 @@ class _RollingSwitchState extends State<LiteRollingSwitch>
               child: Opacity(
                 opacity: value.clamp(0.0, 1.0),
                 child: Container(
-                  padding: EdgeInsets.only(/*top: 10,*/ left: 5),
+                  padding: EdgeInsets.only(/*top: 10,*/ left: 10),
                   alignment: Alignment.centerLeft,
                   height: 40,
                   child: Text(
